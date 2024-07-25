@@ -1,0 +1,77 @@
+.request-detail-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .request-detail-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+  }
+  
+  .form-group textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+  }
+  
+  .form-group select {
+    height: 38px;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .button-group button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .button-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-group button[type="reset"] {
+    background-color: #6c757d;
+  }
+  
+  .button-group button[type="reset"]:hover {
+    background-color: #5a6268;
+  }
+  
+  @media (max-width: 600px) {
+    .form-group label {
+      font-size: 0.9rem;
+    }
+  }  
